@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SeniorProject311</string>
+    <string name="head_detail">Detail</string>
+    <string name="hum_detail">Humidity : 60%</string>
+    <string name="risk_detail">Risk Level : Normal</string>
+    <string name="uv_detail">UV Level : Normal</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="weather_ex">30ํ</string>
+    <string name="add_activity">Add Activity</string>
+    <string name="des_add">Description</string>
+    <string name="name_activity">ชื่อกิจกรรม</string>
+    <string name="des_ac">รายละเอียดกิจกรรม</string>
+    <string name="test_text">อิออนเจ๊โอเพ่นวาฟเฟิลสปา โหงวเฮ้งโปรเจ็กตไนน์ตัวตน
+มายาคติ ซีเรียสลาเต้เพลซคอลัมนิสต์คาปูชิโน สปอร์ตอินเตอร์
+บึ้มกรีน ฮองเฮาคีตกวีควิก ฮาลาลอิออนทับซ้อนพอเพียง ติ่มซำ
+สเตริโออุปนายิกา เมเปิลสัมนาโมเดล โอเวอร์โทรโข่งปูอัดยูวี ฟลุ
+สปอตเวิร์ลด์ พาสตาราเมนสังโฆสปอตพุทธศตวรรษ เวิร์ลด์ฮาโล
+วีนคาแรคเตอร์วีเจ บูติคพันธุวิศวกรรมราสเบอร์รีศิลปากร บุญ
+คอร์รัปชันกรรมาชนฟลุก ตังค์สปายซิ่งแมคเคอเรลแจ๊กพ็อต</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

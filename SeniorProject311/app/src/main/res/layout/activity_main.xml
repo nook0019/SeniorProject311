@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!--Linear weather start-->
+    <LinearLayout
+        android:id="@+id/weather_status"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorGreen"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+
+
+        <!--Linear detail start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight="1"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/weather_ex"
+                    android:textSize="70dp"
+                    android:gravity="center"
+
+                    />
+            </LinearLayout>
+            <!--Linear Line Start-->
+            <LinearLayout
+                android:layout_width="5dp"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:background="@color/colorWhite"
+                android:layout_gravity="bottom"
+                >
+            </LinearLayout>
+            <!--Linear Line end-->
+            <!--Linear Detail Text start-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:orientation="vertical"
+                android:layout_weight="1"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/head_detail"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hum_detail"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="15sp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/risk_detail"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="15sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/uv_detail"
+                    android:textSize="15sp"
+
+                    />
+            </LinearLayout>
+            <!--Linear Detail Text End-->
+        </LinearLayout>
+        <!--Linear detail end-->
+
+    </LinearLayout>
+    <!--Linear weather end-->
+
+    <!--Linear suggestion detail start-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+        <!--Layout suggest 1 start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="5dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/icon1"
+                    />
+                <TextView
+                    android:id="@+id/tem01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature :"
+                    />
+                <TextView
+                    android:id="@+id/hum01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Humidity :"
+                    />
+                <TextView
+                    android:id="@+id/cloud01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cloud :"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="5dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/icon1"
+                        />
+                    <TextView
+                        android:id="@+id/tem02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hum_detail"
+                        />
+                    <TextView
+                        android:id="@+id/hum02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/risk_detail"
+                        />
+                    <TextView
+                        android:id="@+id/cloud02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/uv_detail"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="5dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/icon1"
+                        />
+                    <TextView
+                        android:id="@+id/tem03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hum_detail"
+                        />
+                    <TextView
+                        android:id="@+id/hum03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Risk Level : 10%"
+                        />
+                    <TextView
+                        android:id="@+id/cloud03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/uv_detail"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Linear Line Start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:gravity="center"
+            android:background="@color/colorGreen"
+            >
+        </LinearLayout>
+        <!--Linear Line end-->
+
+        <!--Layout suggest 1 End-->
+        <!--Layout suggest 2 start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/app_name"
+                android:textSize="20sp"
+                android:layout_margin="25dp"
+                />
+            <!--Linear Line Start-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:gravity="center"
+                android:background="@color/colorGreen"
+                >
+            </LinearLayout>
+            <!--Linear Line end-->
+
+        </LinearLayout>
+        <!--Layout suggest 2 End-->
+        <!--Layout suggest 3 start-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/app_name"
+                android:textSize="20sp"
+                android:layout_margin="25dp"
+                />
+            <!--Linear Line Start-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:gravity="center"
+                android:background="@color/colorGreen"
+                >
+            </LinearLayout>
+            <!--Linear Line end-->
+
+        </LinearLayout>
+        <!--Layout suggest 3 End-->
+
+    </LinearLayout>
+    <!--Linear suggestion detail end-->
+
+</LinearLayout>
